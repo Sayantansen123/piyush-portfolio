@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Header = () => {
   const [toggle,showMenu] = useState(false);
   return (
-    <header className='w-[100%] fixed top-0 left-0 z-[100] bg-[#fff]'>
+    <header className='w-[100%] fixed top-0 left-0 z-[100] ' id='headers'>
       <nav className='h-[4.5rem] px-[10%]  flex justify-between items-center gap-x-[1rem]  max-md:justify-between max-md:px-4 max-md:h-[3.5rem]'>
         <motion.a
          initial={{ y: -100 }}      
@@ -28,27 +28,27 @@ const Header = () => {
             <motion.li
             initial={{ y: -100 }}      
             animate={{ y: 0 }}           
-            transition={{ duration: 2 }}
+            transition={{ duration: 1.7 }}
             ><a className='flex flex-col items-center text-[0.875rem] text-black transform font-medium transition duration-300 max-md:text-[0.9rem] hover:text-black hover:font-bold hover:scale-120' href=""><div className='hidden max-md:block'><UisScenery /></div>About</a></motion.li>
             <motion.li
             initial={{ y: -100 }}      
             animate={{ y: 0 }}           
-            transition={{ duration: 2.7 }}
+            transition={{ duration: 2 }}
             ><a className='flex flex-col items-center text-[0.875rem] text-black transform font-medium transition duration-300 max-md:text-[0.9rem] hover:text-black hover:font-bold hover:scale-120' href=""><div className='hidden max-md:block'><UisAt /></div>Skills</a></motion.li>
             <motion.li
             initial={{ y: -100 }}      
             animate={{ y: 0 }}           
-            transition={{ duration: 3.7 }}
+            transition={{ duration: 2.3}}
             ><a className='flex flex-col items-center text-[0.875rem] text-black transform font-medium transition duration-300 max-md:text-[0.9rem] hover:text-black hover:font-bold hover:scale-120' href=""><div className='hidden max-md:block'><UisBriefcase /></div>Services</a></motion.li>
             <motion.li
             initial={{ y: -100 }}      
             animate={{ y: 0 }}           
-            transition={{ duration: 4.7}}
+            transition={{ duration: 2.5}}
             ><a className='flex flex-col items-center text-[0.875rem] text-black transform font-medium transition duration-300 max-md:text-[0.9rem] hover:text-black hover:font-bold hover:scale-120' href=""><div className='hidden max-md:block'><UisAt /></div>Portfolio</a></motion.li>
             <motion.li
             initial={{ y: -100 }}      
             animate={{ y: 0 }}           
-            transition={{ duration: 5.7 }}
+            transition={{ duration: 2.8 }}
             ><a className='flex flex-col items-center text-[0.875rem] text-black transform font-medium transition duration-300 max-md:text-[0.9rem] hover:text-black hover:font-bold hover:scale-120' href=""><div className='hidden max-md:block' ><UisAt /></div>Contact</a></motion.li>
           </ul>
           </motion.div>

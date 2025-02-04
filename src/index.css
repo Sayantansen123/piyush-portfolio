@@ -6,6 +6,16 @@
     }
   }
 
+#headers{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 59%);
+}
+
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 59%);
+}  
+
 #tag1::before{
   content: "";
   position: absolute;
@@ -35,6 +45,12 @@
      
   }
   
+@media (max-width:880px){
+    #scroll{
+        visibility: hidden;
+    }
+}
+
 
 #piyushdas::before{
   content: "";
@@ -133,7 +149,7 @@
 }
 
 .infobox{
-    background-color: aliceblue;
+    background-color: #fff;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.75rem;
     display: flex;
@@ -144,4 +160,8 @@
     height: 160px;
     flex: wrap;
     flex: 1;
+}
+
+#tool , #skill{
+    border: 1px solid rgb(0,0,0,0.1);
 }

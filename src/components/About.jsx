@@ -31,7 +31,7 @@ const About = () => {
          <p className='text-sm font-light pb-5'>I create high-quality video edits, VFX, and motion graphics for events, social media, films, and commercials. Specializing in compositing, motion tracking, and 3D integration, I bring visuals to life using industry-leading tools like After Effects, Premiere Pro, Houdini, and Nuke.</p>
          
 <button
-  className="bg-white text-center  w-40 rounded-2xl h-12 relative text-black text-[1rem] font-semibold group"
+  className=" text-center  w-40 rounded-2xl h-12 relative text-black text-[1rem] font-semibold group"
   type="button"
 >
   <div

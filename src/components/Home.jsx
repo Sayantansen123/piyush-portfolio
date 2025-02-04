@@ -39,7 +39,7 @@ const Home = () => {
 
 const Scroll = () =>{
   return (
-    <div className=' max-md:hidden flex gap-0.5 items-center absolute top-[20rem] left-[-0.4rem]'>
+    <div className=' max-md:hidden flex gap-0.5 items-center absolute top-[20rem] left-[-0.4rem]' id='scroll'>
       <a href=""><svg
                 width="32px"
                 height="32px"
@@ -103,7 +103,7 @@ const Data = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
         id='piyushdas'
-        className='font-serif text-5xl flex gap-1.5 items-center max-md:text-3xl'>Piyush Das <div className='spider'><FaSpider/></div></motion.h1>
+        className='font-serif text-5xl flex gap-1.5 items-center max-md:text-3xl text-nowrap'>Piyush Das <div className='spider'><FaSpider/></div></motion.h1>
       <motion.h3
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -119,7 +119,7 @@ const Data = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 4.5 }}
-        className="flex max-md:text-sm rounded-lg gap-0.5 mt-5 pb-0.5 border-2 border-black w-[100px] justify-center items-center hover:text-white hover:bg-black"><a href="">Say Hello </a><IoIosSend /></motion.div>
+        className="flex text-nowrap  max-md:text-sm rounded-lg gap-0.5 mt-5 pb-0.5 border-2 border-black w-[110px] justify-center items-center hover:text-white hover:bg-black"><a href="">Say Hello </a><IoIosSend /></motion.div>
         <Scroll/>
     </div>
   )
