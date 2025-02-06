@@ -16,9 +16,7 @@ const Home = () => {
       <div>
         <div className='max-md:py-30 py-35  px-[10%] max-md:block max-md:px-4 flex max-md:flex-wrap  justify-around items-center'>
 
-          <Social />
-
-          
+          <Social /> 
 
           <Data />
 
