@@ -42,8 +42,24 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 
  
       }
 
+
+      
+
+
      
   }
+
+  @media (max-width: 1024px) and (min-width: 780px) {
+    
+
+    #servicediv{
+        padding:0 ;
+        
+    }
+
+     
+  }
+
   
 @media (max-width:880px){
     #scroll{
@@ -158,6 +174,23 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 
     align-items: center;
     padding: 1rem 1.25rem;
     height: 160px;
+    flex: wrap;
+    flex: 1;
+}
+
+.infoboxS{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    height: 300px;
+    max-width: 400px;
+    min-width: 300px;
     flex: wrap;
     flex: 1;
 }
