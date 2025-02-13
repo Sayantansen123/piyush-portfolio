@@ -6,6 +6,20 @@
     }
   }
 
+#work_container{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    gap: 3rem;
+    justify-content: center;
+}
+
+#work_card{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+
 #headers{
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 59%);
@@ -13,7 +27,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 
 
 body{
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 59%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 59%);
 }  
 
 #tag1::before{
@@ -42,6 +56,12 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 
  
       }
 
+      #work_container{
+       
+        grid-template-columns: repeat(1,max-content);
+        
+    }
+
 
       
 
@@ -54,6 +74,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 32%, rgba(224,224,224,1) 
 
     #servicediv{
         padding:0 ;
+        
+    }
+    #work_container{
+       
+        gap: 1rem;
         
     }
 
